@@ -127,89 +127,17 @@ overview: true
                            				
     								<img src="http://placehold.it/800x450" alt="image">
     								
-			                        <h3 class="blog-title"><a href="#">Standard blog post with image</a></h3>
-			                        <p class="blog-meta">Posted by <a href="#">Admin</a> | 6 November | <a href="#">5 Comments</a></p>
+			                        <h3 class="blog-title"><a href="{{ page.title }}">Standard blog post with image</a></h3>
+			                        <p class="blog-meta">Posted by <a href="https://github.com/{{ page.author }}">Evgeny Litvinchuk</a> | {{ page.date | date: "%B %e, %Y" }} | <a href="#">5 Comments</a></p>
 			                        <div class="border"></div>
 			                        <div class="blog-content">
-			                            <p>Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel. Praesent leo orci...</p>  
+			                            <p>{{ content }}</p>  
 			                        </div>
 			                        <a href="#" class="btn">Read More</a>
     							</div>
     						<!-- blog post end -->
 
-    						<!-- blog post  quote-->
-    							<div class="blog-quote">
-					                <a href="#">
-					                   	<div class="post-quote">
-											<h2>I'm not a genius. I'm just a tremendous bundle of experience.</h2>
-					                        <P>- R. Buckminster Fuller</P>
-					                     </div>
-					                </a>
-    							</div>
-    						<!-- blog post quote end -->
-
-
-    						<!-- blog post -->
-								<div class="blog-post">
-                           				
-									<ul class="rslides rslides-blog">
-										<li><img src="http://placehold.it/800x450" alt="" class="img-responsive" /></li>
-										<li><img src="http://placehold.it/800x450" alt="" class="img-responsive" /></li>
-										<li><img src="http://placehold.it/800x450" alt="" class="img-responsive" /></li>
-										<li><img src="http://placehold.it/800x450" alt="" class="img-responsive" /></li>
-									</ul>
-    								
-			                        <h3 class="blog-title"><a href="#">Standard blog post with gallery</a></h3>
-			                        <p class="blog-meta">Posted by <a href="#">Admin</a> | 6 November | <a href="#">5 Comments</a></p>
-			                        <div class="border"></div>
-			                        <div class="blog-content">
-			                            <p>Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel. Praesent leo orci...</p>  
-			                        </div>
-			                        <a href="#" class="btn">Read More</a>
-    							</div>
-    						<!-- blog post end -->
-
-   						<!-- blog video post -->
-								<div class="blog-post">
-		                           				
-		                            <div class="video-holder">
-		                                <iframe src="http://player.vimeo.com/video/76175542?title=0" width="800" height="450" ></iframe>
-		                            </div>
-    								
-			                        <h3 class="blog-title"><a href="#">Standard blog post with video</a></h3>
-			                        <p class="blog-meta">Posted by <a href="#">Admin</a> | 6 November | <a href="#">5 Comments</a></p>
-			                        <div class="border"></div>
-			                        <div class="blog-content">
-			                            <p>Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel. Praesent leo orci...</p>  
-			                        </div>
-			                        <a href="#" class="btn">Read More</a>
-    							</div>
-    					<!-- blog video post end -->
-
-	   						<!-- blog post -->
-									<div class="blog-post">
-				                        <h3 class="blog-title"><a href="#">Blog post with text only</a></h3>
-				                        <p class="blog-meta">Posted by <a href="#">Admin</a> | 6 November | <a href="#">5 Comments</a></p>
-				                        <div class="border"></div>
-				                        <div class="blog-content">
-				                            <p>Nullam ornare, sem in malesuada sagittis, quam sapien ornare massa, id pulvinar quam augue vel. Praesent leo orci...</p>  
-				                        </div>
-				                        <a href="#" class="btn">Read More</a>
-	    							</div>
-	    					<!-- blog post end -->  
-
-
-
-    						<!-- blog post  quote-->
-    							<div class="blog-quote">
-					                <a href="#">
-					                   	<div class="post-quote">
-											<h2>Artists themselves are not confined, but their output is.</h2>
-					                        <P>- Robert Smithson</P>
-					                     </div>
-					                </a>
-    							</div>
-    						<!-- blog post quote end -->    						
+    						
     					</div>
     				<!-- blog post holder end -->
 					</div>
